@@ -46,6 +46,7 @@ public class FileSearcher {
         }
     }
 
+
     private static List<String> searchFile(String directory, String namePattern, String searchType) throws IOException {
         ArrayList<String> result = new ArrayList<>();
         Path startPath = Paths.get(directory);
