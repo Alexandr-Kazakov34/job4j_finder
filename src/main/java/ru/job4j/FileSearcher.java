@@ -47,7 +47,6 @@ public class FileSearcher {
         }
     }
 
-
     private static List<String> searchFile(String directory, String namePattern, String searchType) throws IOException {
         ArrayList<String> result = new ArrayList<>();
         Path startPath = Paths.get(directory);
@@ -80,7 +79,6 @@ public class FileSearcher {
             default -> throw new IllegalArgumentException("Invalid searchType");
         }
     }
-
 
     private static void writeResultsToFile(List<String> results, String outputFile) throws IOException {
         try (PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(outputFile)))) {
