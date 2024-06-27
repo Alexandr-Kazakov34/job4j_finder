@@ -79,6 +79,7 @@ public class FileSearcher {
         }
     }
 
+
     private static void writeResultsToFile(List<String> results, String outputFile) throws IOException {
         try (PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(outputFile)))) {
             for (String line : results) {
