@@ -15,7 +15,6 @@ public class FileSearcher {
         if (args.length < 4) {
             throw new IllegalArgumentException("Missing same arguments");
         }
-
         String directory = null;
         String namePattern = null;
         String searchType = null;
