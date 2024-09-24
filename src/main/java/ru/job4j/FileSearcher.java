@@ -61,6 +61,7 @@ public class FileSearcher {
                         return super.visitFile(file, attrs);
                     }
                 });
+
         return result;
     }
 
