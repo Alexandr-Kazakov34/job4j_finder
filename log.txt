@@ -1,0 +1,6 @@
+C:\projects\job4j_finder\example\data.txt
+C:\projects\job4j_finder\example\goodbye.txt
+C:\projects\job4j_finder\example\hello.txt
+C:\projects\job4j_finder\example\phrase.txt
+C:\projects\job4j_finder\example\ru.job4j.ood.lsp.parking.ParkingCarsTest.txt
+C:\projects\job4j_finder\example\ru.job4j.template.GeneratorRealisationTest.txt
