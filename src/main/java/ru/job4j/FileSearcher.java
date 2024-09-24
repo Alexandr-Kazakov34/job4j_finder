@@ -45,6 +45,7 @@ public class FileSearcher {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 
     private static List<String> searchFile(String directory, String namePattern, String searchType) throws IOException {
